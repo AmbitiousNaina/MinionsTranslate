@@ -1,2 +1,2 @@
-var username = prompt("Give me username")
-alert("This script works" + username)
+var btnTranslate = document.querySelector("#btn-translate");
+console.log(btnTranslate);

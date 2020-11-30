@@ -11,14 +11,26 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "pwa-node"
+            "type": "chrome"
         },
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "Launch index.html",
+            "url": "http://localhost/index.html",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "http://127.0.0.1",
+            "request": "launch",
+            "url": "http://127.0.0.1"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": ".",
+            "request": "launch",
+            "url": "."
         }
     ]
 }
